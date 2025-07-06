@@ -7,7 +7,7 @@ app = FastAPI()
 
 # ✅ Load font
 try:
-    font = ImageFont.truetype("DejaVuSans.ttf", 30)
+    font = ImageFont.truetype("DejaVuSans.ttf", 15)
 except:
     font = ImageFont.load_default()
 
